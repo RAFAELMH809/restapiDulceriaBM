@@ -43,6 +43,9 @@ const updateDulce  = async (req,  res)  =>  {
      dulce.precio = req.body.precio;
      dulce.cantidad = req.body.cantidad;
      dulce.descripcion = req.body.descripcion;
+     dulce.color = req.body.color;
+     dulce.sabor = req.body.sabor;
+
      await dulce.save();
       }
       else {

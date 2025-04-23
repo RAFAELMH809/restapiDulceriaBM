@@ -20,6 +20,12 @@ module.exports = {
       descripcion: {
         type: Sequelize.TEXT
       },
+      color: {
+        type: Sequelize.STRING
+      },
+      sabor: {
+        type: Sequelize.STRING
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
